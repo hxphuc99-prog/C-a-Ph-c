@@ -1,0 +1,110 @@
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+
+local Window = Rayfield:CreateWindow({
+    Name = "primescriptblox",
+    LoadingTitle = "primescriptblox - Loading...",
+    LoadingSubtitle = "by HXPhúc xD",
+    ConfigurationSaving = {
+        Enabled = false,
+    },
+    KeySystem = false,
+})
+
+local FarmTab = Window:CreateTab("Farm Scripts", 4483362458)
+
+FarmTab:CreateButton({
+    Name = "farm mượt",
+    Callback = function()
+        Rayfield:Notify({
+            Title = "Đang load Farm mượt",
+            Content = "Chờ đi...",
+            Duration = 3,
+        })
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/traurobloxdeptrai/traukhoaito/refs/heads/main/traurobloxv8.lua"))()
+    end,
+})
+
+FarmTab:CreateButton({
+    Name = "Farm Beta",
+    Callback = function()
+        Rayfield:Notify({
+            Title = "Đang load Farm beta",
+            Content = "Chờ đi...",
+            Duration = 3,
+        })
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Anniecreate86/BloxFruits/refs/heads/main/BetaHub-BF"))())
+    end,
+})
+
+FarmTab:CreateButton({
+    Name = "Farm nhanh mượt",
+    Callback = function()
+        Rayfield:Notify({
+            Title = "Đang load Farm nhanh mượt",
+            Content = "Chờ đi...",
+            Duration = 3,
+        })
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/AnDepZaiHub/AnDepZaiHubBeta/refs/heads/main/AnDepZaiHubBeta.lua"))()
+    end,
+})
+
+FarmTab:CreateButton({
+    Name = "Farm cũng cũng",
+    Callback = function()
+        Rayfield:Notify({
+            Title = "Đang load Farm cũng cũng",
+            Content = "Chờ đi...",
+            Duration = 3,
+        })
+
+repeat wait() until game:IsLoaded() and game.Players.LocalPlayer 
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NguyenAnhKhoaVN/Real_AnhKhoa_2279/refs/heads/main/Main-BloxFruitsNX.lua"))()
+    end,
+})
+
+local UpV4Tab = Window:CreateTab("Up V4", 4483362458)  -- Icon tùy ý
+
+UpV4Tab:CreateButton({
+    Name = "Trau",
+    Callback = function()
+        Rayfield:Notify({
+            Title = "Đang load Trau",
+            Content = "Chờ xíu nha...",
+            Duration = 3,
+        })
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/traurobloxdeptrai/traukhoaito/refs/heads/main/traurobloxv8.lua"))()
+    end,
+})
+
+UpV4Tab:CreateButton({
+    Name = "Xeter",
+    Callback = function()
+        Rayfield:Notify({
+            Title = "Đang load Xeter",
+            Content = "Chờ xíu nha...",
+            Duration = 3,
+        })
+        getgenv().Version = "V4"
+        getgenv().Team = "Marines"
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/TlDinhKhoi/Xeter/refs/heads/main/Main.lua"))()
+    end,
+})
+
+UpV4Tab:CreateButton({
+    Name = "Bay Hỗ Trợ",
+    Callback = function()
+        Rayfield:Notify({
+            Title = "Đang load Bay Hỗ Trợ",
+            Content = "Chờ xíu nha...",
+            Duration = 3,
+        })
+        loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Better-Fly-GUI-44304"))()
+    end,
+})
+
+Rayfield:Notify({
+    Title = "BỊ LỖI THÌ NHẮN ZALO CHO PHÚC",
+    Content = "HÃY TẬN HƯỞNG",
+    Duration = 5,
+})
