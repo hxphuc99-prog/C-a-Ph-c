@@ -40,11 +40,35 @@ FarmTab:CreateButton({
     Name = "Farm Beta",
     Callback = function()
         Rayfield:Notify({
-            Title = "Đang load Farm Beta",
+            Title = "Đang load Farm mượt",
             Content = "Chờ xíu nha...",
             Duration = 3,
         })
         loadstring(game:HttpGet("https://raw.githubusercontent.com/AnDepZaiHub/AnDepZaiHubBeta/refs/heads/main/AnDepZaiHubBeta.lua"))()
+    end,
+})
+
+FarmTab:CreateButton({
+    Name = "Farm ổn",
+    Callback = function()
+        Rayfield:Notify({
+            Title = "Đang load Farm ổn",
+            Content = "Chờ xíu nha...",
+            Duration = 3,
+        })
+repeat wait() until game:IsLoaded() and game.Players.LocalPlayer 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NguyenAnhKhoaVN/Real_AnhKhoa_2279/refs/heads/main/Main-BloxFruitsNX.lua"))()
+    end,
+})
+FarmTab:CreateButton({
+    Name = "Farm nhanh but lag",
+    Callback = function()
+        Rayfield:Notify({
+            Title = "Đang load Farm nhanh but lag",
+            Content = "Chờ xíu nha...",
+            Duration = 3,
+        })
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Anniecreate86/BloxFruits/refs/heads/main/BetaHub-BF"))())
     end,
 })
 
