@@ -71,6 +71,17 @@ FarmTab:CreateButton({
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Anniecreate86/BloxFruits/refs/heads/main/BetaHub-BF"))()
     end,
 })
+FarmTab:CreateButton({
+    Name = "farm nhanh",
+    Callback = function()
+        Rayfield:Notify({
+            Title = "Đang load Farm nhanh",
+            Content = "Chờ xíu nha...",
+            Duration = 3,
+        })
+        loadstring(game:HttpGet(" https://raw.githubusercontent.com/longhihilonghihi-hub/Devs-LongHiHiV2/refs/heads/main/MainV2.txt"))()
+    end,
+})
 
 local UpV4Tab = Window:CreateTab("Up V4", 4483362458)  -- Icon tùy ý
 
