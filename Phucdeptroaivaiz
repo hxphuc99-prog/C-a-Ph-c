@@ -13,14 +13,14 @@ local Window = Rayfield:CreateWindow({
 local FarmTab = Window:CreateTab("Farm Scripts", 4483362458)
 
 FarmTab:CreateButton({
-    Name = "Farm 1.1.2",
+    Name = "Farm Ngon",
     Callback = function()
         Rayfield:Notify({
-            Title = "Đang load Farm 1.1.2",
+            Title = "Đang load Farm Ngon",
             Content = "Chờ xíu nha...",
             Duration = 3,
         })
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/traurobloxdeptrai/traukhoaito/refs/heads/main/traurobloxv8.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/trungdao2k4/buffalo/refs/heads/main/traurobloxv9.lua"))()
     end,
 })
 
