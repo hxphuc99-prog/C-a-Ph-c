@@ -1,0 +1,6 @@
+getgenv().ScriptTitle = "HDPEHXP_XD"
+getgenv().ScriptSubTitle = "By Huynh Xuan Phuc"
+getgenv().ScriptImage = "https://i.ibb.co/27X7BGXJ/1000029366.jpg"
+getgenv().ScriptAuthorName = "Phucdeptraiximx"
+getgenv().ScriptAuthorSubTitle = "https://www.tiktok.com/@xuan.phuc1231174?_r=1&_t=ZS-946HrCUr66G"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/hoannhatz/Script/refs/heads/main/EZScript.lua"))()
