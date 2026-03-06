@@ -1,0 +1,7 @@
+-- this script created at https://lambloxfruitscript.vercel.app/
+getgenv().ScriptTitle = "HDPE_HXP"
+getgenv().ScriptSubTitle = "By Huynh Xuan Phuc"
+getgenv().ScriptImage = "https://i.ibb.co/d0GThPnc/1000030499.jpg"
+getgenv().ScriptAuthorName = "PhucXDscript"
+getgenv().ScriptAuthorSubTitle = "Đã fix lỗi farm lever"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/hoannhatz/Script/refs/heads/main/EZScript.lua"))()
